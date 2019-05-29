@@ -3,33 +3,67 @@ article{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    background-size: cover;
+    background-image: url('/home/Vitor/Documentos/entregaDrone/imgs/banner_drone.jpg')
 }
 
 article div{
+    width: 30%;
     height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    background-color: rgba(255, 253, 253, 0.2);
+    border-radius: 50px;
 }
 
 #cadastro{
     display: flex;
     flex-direction: column;
     height: 30%;
+    background-color: transparent;
 }
 
 #cadastro input{
     height: 8vh;
     width: 20vw;
+    border-top: rgba(1, 1, 1, 0.5);
+    border-left:rgba(1, 1, 1, 0.5);
+    border-right:rgba(1, 1, 1, 0.5);
+    background-color: transparent;
+    text-align: center;
 }
 
 article button{
-    height: 10vh;
+    height: 5vh;
     width: 20vw;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #B33009;
+    color: white;
+    border: #1948FF;
+}
+
+article button:hover{
+    cursor: pointer;
 }
 
 #opcoes{
     height: 20%;
+    background-color: rgba(255, 255, 255, 0)
+}
+
+article div p{
+    font-size: 22pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#opcoes a{
+    color: black;
+    text-decoration: none;
+}
+
+#opcoes a:hover{
+    text-decoration: underline;
+    color: #CC3E14;
 }

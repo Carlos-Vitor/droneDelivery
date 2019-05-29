@@ -6,7 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.7);
     height: 10vh;
 }
 
@@ -18,24 +18,31 @@ nav div{
     display: flex;
     justify-content: space-around;
     width: 50vw;
+    align-items: center;
 }
 
 nav div a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav div button{
+    height: 30px;
+    width: 60px;
     border-radius: 10px;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
 nav div button:hover{
     cursor: pointer;
+    color: darkolivegreen;
 }
 
 nav div a:hover{
     text-decoration: underline;
+    color: darkolivegreen;
 }
 
 nav img{
@@ -50,10 +57,12 @@ article{
 }
 
 #tokenProduto{
+    position: fixed;
     display: flex;
     align-items: center;
     height: 4vh;
     width: 25vw;
+    margin: auto;
 }
 
 #tokenProduto input{
@@ -69,13 +78,10 @@ article{
 }
 
 #location-map{
-    position: relative;
     background-color: white;
-    margin-top: 5vh;
     border: none;
-    border-radius: 20px;
-    height: 60vh;
-    width: 40vw;
+    height: 100%;
+    width: 100%;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -85,7 +91,7 @@ article{
   }
 
 footer{
-    background-color: grey;
+    background-color: black;
     height: 10vh;
     width: 100%;
 }
