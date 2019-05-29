@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    height: 10vh;
+}
+
+nav img{
+    width: 60px;
+}
+
+nav div{
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+nav div a{
+    text-decoration: none;
+    color: black;
+}
+
+nav div button{
+    border-radius: 10px;
+    background-color: grey;
+}
+
+nav div button:hover{
+    cursor: pointer;
+}
+
+nav div a:hover{
+    text-decoration: underline;
+}
+
+nav img{
+    margin-left: 2vw;
+}
+
+article{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#tokenProduto{
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    width: 25vw;
+}
+
+#tokenProduto input{
+    height: 75%;
+    width: 74%;
+    border-radius: 5px 0 0 5px;
+}
+
+#tokenProduto button{
+    width: 23%;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+}
+
+#location-map{
+    position: relative;
+    background-color: white;
+    margin-top: 5vh;
+    border: none;
+    border-radius: 20px;
+    height: 60vh;
+    width: 40vw;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+  }
+
+footer{
+    background-color: grey;
+    height: 10vh;
+    width: 100%;
+}

@@ -1,0 +1,31 @@
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+article div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#cadastro{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+#cadastro input{
+    height: 8vh;
+    width: 20vw;
+}
+
+article button{
+    height: 10vh;
+    width: 20vw;
+    border-radius: 0 0 10px 10px;
+}
