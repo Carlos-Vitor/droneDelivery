@@ -4,7 +4,7 @@ article{
     align-items: center;
     justify-content: space-around;
     background-size: cover;
-    background-image: url('/home/Vitor/Documentos/entregaDrone/imgs/banner_drone.jpg')
+    background-image: url('/home/Vitor/Documentos/entregaDrone/static/imgs/banner_drone.jpg')
 }
 
 article div{
@@ -36,16 +36,13 @@ article div{
 }
 
 article button{
+    cursor: pointer;
     height: 5vh;
     width: 20vw;
     border-radius: 10px 10px 10px 10px;
     background-color: #B33009;
     color: white;
     border: #1948FF;
-}
-
-article button:hover{
-    cursor: pointer;
 }
 
 #opcoes{
@@ -55,6 +52,7 @@ article button:hover{
 
 article div p{
     font-size: 22pt;
+    color: white;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

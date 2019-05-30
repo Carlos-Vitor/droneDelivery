@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 10vh;
+}
+
+#logo img{
+    width: 60px;
+}
+
+#logo{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+nav div{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    align-items: center;
+}
+
+nav div a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+nav div a:hover{
+    text-decoration: underline;
+    color: #B33009;
+}
+
+nav img{
+    margin-left: 2vw;
+}
+
+article{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('/home/Vitor/Documentos/entregaDrone/static/imgs/drone-delivery.jpg');
+    background-size: cover;
+}
+
+#pesquisaToken{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 253, 253, 0.2);
+    border-radius: 50px;
+    height: 40%;
+    width: 30%;
+}
+
+#pesquisaToken p{
+    font-size: 18pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    color: white;
+}
+
+#tokenProduto{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    width: 90%;
+    margin: 0;
+}
+
+#tokenProduto input{
+    height: 75%;
+    width: 74%;
+    border-radius: 5px 0 0 5px;
+    border-top: rgba(1, 1, 1, 0.5);
+    border-left:rgba(1, 1, 1, 0.5);
+    border-right:rgba(1, 1, 1, 0.5);
+    background-color: transparent;
+    text-align: center;
+}
+
+#tokenProduto button{
+    width: 23%;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    border: transparent;
+    background-color:   #B33009;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#location-map{
+    background-color: white;
+    border: none;
+    margin-left: 2%;
+    height: 90%;
+    width: 50%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: flex;
+    border-radius: 9px;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+
+::-webkit-input-placeholder{
+    color: rgba(1, 1, 1, 0.7);
+}

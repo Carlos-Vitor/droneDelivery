@@ -1,0 +1,48 @@
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    background-image: url('/home/Vitor/Documentos/entregaDrone/static/imgs/banner_drone.jpg')
+}
+
+article div{
+    
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 253, 253, 0.2);
+    border-radius: 50px;
+}
+
+#cadastro{
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    background-color: transparent;
+}
+
+#cadastro input{
+    height: 8vh;
+    width: 20vw;
+    border-top: rgba(1, 1, 1, 0.5);
+    border-left:rgba(1, 1, 1, 0.5);
+    border-right:rgba(1, 1, 1, 0.5);
+    background-color: transparent;
+    text-align: center;
+}
+
+article button{
+    cursor: pointer;
+    height: 10%;
+    width: 40%;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #B33009;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
